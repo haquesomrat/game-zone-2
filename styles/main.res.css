@@ -236,7 +236,7 @@
 
   /*todo-------------------------------------> navigation  */
   .nav-content {
-    padding: 2.375rem 0;
+    padding: 1.5rem 0;
   }
   .logo-content {
     gap: 1.25rem;
@@ -367,6 +367,9 @@
   }
 
   /*todo-------------------------------------> footer  */
+  .footer {
+    padding-block: 5rem;
+  }
   .footer-content {
     gap: 2.5rem;
   }
