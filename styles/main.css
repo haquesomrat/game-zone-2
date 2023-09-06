@@ -356,6 +356,34 @@ section {
 .game-img {
   width: 1.625rem;
 }
+.og-img-content {
+  position: relative;
+}
+.img-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #3c354fab;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+.img-hover i {
+  color: white;
+  padding-bottom: 1.5rem;
+}
+.og-card:hover .img-hover {
+  opacity: 1;
+}
+.hover-text {
+  font-size: 1rem;
+  font-weight: 500;
+}
 .cat-text {
   font-size: 0.5625rem;
   font-weight: 600;
